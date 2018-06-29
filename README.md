@@ -5,7 +5,7 @@ In the first video, we discuss the SQL trace facility for SAP HANA, its use case
 
 You can enable SQL Trace using the Trace Configuration tab of the SAP HANA studio, or using the Trace Configuration context menu in the SAP HANA database explorer. Both interfaces will generate the corresponding SQL statements. 
 
-![Trace Configuration](https://raw.github.com/saphanaacademy/sqltrace/img/param.png)
+![Trace Configuration](https://github.com/saphanaacademy/sqltrace/blob/master/img/param.png)
 
 For scripting purposes, you can also use the SQL statements directly.  
 
@@ -33,7 +33,7 @@ ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini','DATABASE') UNSET
 ```  
 Below some more examples of the different configuration parameter settings availabe. 
 
-![Trace Configuration](https://raw.github.com/saphanaacademy/sqltrace/img/param.png)
+![Trace Configuration](https://github.com/saphanaacademy/sqltrace/blob/master/img/config.png)
 ```
 -- additional options
  ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini','DATABASE') SET
