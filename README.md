@@ -1,5 +1,4 @@
 ![SAP HANA Academy](https://yt3.ggpht.com/-BHsLGUIJDb0/AAAAAAAAAAI/AAAAAAAAAVo/6_d1oarRr8g/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg)
-# sqltrace
 
 ## SQL Trace ##
 In the first video, we discuss the SQL trace facility for SAP HANA, its use cases, and how to enable it using SQL, SAP HANA studio, and the SAP HANA database explorer. 
