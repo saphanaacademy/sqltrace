@@ -52,3 +52,20 @@ Below some more examples of the different configuration parameter settings avail
 * [SQL Trace - SAP HANA Administration Guide](https://help.sap.com/viewer/6b94445c94ae495c83a19646e7c3fd56/latest/en-US/bedc9668bb5710149d56d29fe2632ba0.html)
 * [2031647 - How to enable SQL Trace in SAP HANA Studio](https://launchpad.support.sap.com/#/notes/2031647)
 * [2119087 - How-To: Configuring SAP HANA Traces](https://launchpad.support.sap.com/#/notes/2119087)
+
+## SAP HANA SQL Trace Analyzer ##
+In the next video, we provide an introduction to the SAP HANA SQL Trace Analyzer. Like most of the Python script files found in /usr/sap/<SID>/HDB##/exe/python_support, this was originally a non-documented tool for internal usage only (SAP product support). However, because of its usefulness in quickly gathering some information out of the massive amount of trace data, we now find it documented in SAP Note 2412519.  
+
+To generate a trace report run the python command with the name of script and name of trace file. For other script options, see the usage information (run the script withouth trace file) or the mentioned SAP Note. 
+ 
+```
+python sqlTraceAnalyzer.py sqltrace_host_30003_000.py
+``` 
+
+### Tutorial Video ### 
+[![SQL Trace Analyzer](https://img.youtube.com/vi/FvzN89vwcho/0.jpg)](https://www.youtube.com/watch?v=FvzN89vwcho "SQL Trace Analyzer")
+
+### Documentation ### 
+* [2412519 - FAQ: SAP HANA SQL Trace Analyzer](https://launchpad.support.sap.com/#/notes/2412519)
+
+
